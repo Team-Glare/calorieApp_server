@@ -3,7 +3,7 @@
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://app.travis-ci.com/atharva1996/calorieApp_server.svg?branch=main)](https://app.travis-ci.com/atharva1996/calorieApp_server)
 ![Code Coverage](https://github.com/atharva1996/calorieApp_server/blob/main/coverage.svg)
-[![PEP8](https://img.shields.io/badge/code%20style-pep8-orange.svg)](https://www.python.org/dev/peps/pep-0008/)
+[![Super Linter](https://github.com/Team-Glare/calorieApp_server/actions/workflows/super-linter.yml/badge.svg)](https://github.com/Team-Glare/calorieApp_server/actions/workflows/super-linter.yml)
 ![Issues](https://img.shields.io/github/issues/Team-Glare/calorieApp_server)
 ![last commit](https://img.shields.io/github/last-commit/Team-Glare/calorieApp_server)
 ![total lines](https://img.shields.io/tokei/lines/github/Team-Glare/calorieApp_server)
