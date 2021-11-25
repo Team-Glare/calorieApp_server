@@ -1,5 +1,6 @@
 from datetime import date, datetime
 from types import MethodDescriptorType
+import yaml
 from bson.objectid import ObjectId
 from flask.json.tag import JSONTag
 
@@ -21,8 +22,13 @@ from flask import json
 
 app = Flask(__name__)
 app.secret_key = 'secret'
-app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/test'
-app.config['MONGO_CONNECT'] = False
+# app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/test'
+app.config['MONGO_CONNECT'] = True
+with open('application.yml') as f:
+    info = yaml.load(f, Loader=yaml.FullLoader)
+    username = info['username']
+    password = info['password']
+    app.config['MONGO_URI'] = f'mongodb+srv://{username}:{password}@apptracker.goffn.mongodb.net/calorieApp?retryWrites=true&w=majority'
 mongo = PyMongo(app)
 
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
@@ -529,4 +535,4 @@ def hrx():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
