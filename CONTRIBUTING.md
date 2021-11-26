@@ -28,9 +28,7 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
 
   ## Reporting Bugs
 
-  This section guides you through submitting a bug report for SE Group 26. 
-
-  When you are creating a bug report, please ensure that you include as many details as possible to understand the issue.
+  Reporting a bug will benefit the repository's community and maintainers.Before reporting an issue, make sure that it is correct and that you have all of the necessary information. For creating any bug report, please fill out [the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template will give us necessary information to help solve a bug faster. 
   
   ## Before submitting a Bug Report
   
