@@ -53,7 +53,7 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
 3. Please include relevant test cases and regression testing results before requesting a commit.
 4. We will go through the request and merge it after the testing. 
   
-  #### Provide details like 
+  Provide details like 
   1) What is the enhancement? 
   2) Suggestions to implement the enhancement
 
