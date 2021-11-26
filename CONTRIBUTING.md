@@ -31,6 +31,12 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
   This section guides you through submitting a bug report for SE Group 26. 
 
   When you are creating a bug report, please ensure that you include as many details as possible to understand the issue.
+  
+  ## Before submitting a Bug Report
+  
+  Before submitting a bug report, make sure to verify the following items:
+  Check out this debugging guide, [Debugging guide](https://flight-manual.atom.io/hacking-atom/sections/debugging/), which will assist you in identifying the source of the problem so that you can manually resolve it. 
+ A cursory search, [Cursory search](https://github.com/search?q=+is%3Aissue+user%3Aatom), is required to see if the reported bug has already been mentioned. If the issue is still unresolved, you can add to the existing bug report. 
 
   ## How Do I Submit a Bug Report?
    <p>Bugs are tracked as GitHub issues. After you've determined which repository your bug is related to, create an issue on that repository.
