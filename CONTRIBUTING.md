@@ -3,9 +3,10 @@
 <p>Firstly, thank you so much for showing interest in BurnOut 2.0 and contributing to our project.👍</p>
 The idea of having this project as an open source is to enhance it further with some creative and usable functionalities. The README.md file provides a consolidated plan of the scope of the project and what additional functionalities are planned to be deployed in the near future.
 When contributing to the repository, we recommend that you discuss the change you wish to make through an issue, email or contacting one of the owners of the repository.
-The following are a set of guidelines for contributing to BurnOut 2.0:
+</p>
+The following rules are a set of guidelines for contributing to BurnOut 2.0:
 
-### Table of contents
+## TABLE OF CONTENTS
 [Code of Conduct](#code-of-conduct)
 
 [How Can I Contribute?](#how-can-i-contribute)
@@ -19,8 +20,8 @@ The following are a set of guidelines for contributing to BurnOut 2.0:
 
 
 
-### Code of Conduct
-Everyone participating in this project needs to abide by the aPAS - A Personal Agile Scheduler Code of Conduct that can be found under the main repository link as a CODE_OF_CONDUCT.md file. By participating, you are expected to uphold this code. Please report unacceptable behavior to any of the original team members listed at the bottom of [README.md](README.md).
+## Code of Conduct
+Everyone participating in this project needs to abide by the aPAS - A Personal Agile Scheduler Code of Conduct that can be found under the main repository link as a CODE_OF_CONDUCT.md file. You are expected to follow this code if you decide to participate. Please contact any of the team members mentioned at the bottom of [README.md](README.md) to report any inappropriate behavior.
 
 ## How Can I Contribute?
 
