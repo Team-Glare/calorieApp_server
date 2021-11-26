@@ -41,7 +41,51 @@ class BasicTestCase(unittest.TestCase):
         self.app=application.app.test_client()
         ans=self.app.get('/friends')
         self.assertEqual(ans.status_code,200)
-     
+
+    def test_islive(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/')
+        self.assertEqual(ans.status_code,302)
+
+    def test_user_profile(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/user_profile')
+        self.assertEqual(ans.status_code,302)
+
+    def test_history(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/history')
+        self.assertEqual(ans.status_code,500)
+
+    def test_calories(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/calories')
+        self.assertEqual(ans.status_code,302)
+
+    def test_yoga(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/yoga')
+        self.assertEqual(ans.status_code,302)
+
+    def test_swim(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/swim')
+        self.assertEqual(ans.status_code,302)
+
+    def test_gym(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/gym')
+        self.assertEqual(ans.status_code,302)
+
+    def test_walk(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/walk')
+        self.assertEqual(ans.status_code,302)
+
+    def test_dance(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/dance')
+        self.assertEqual(ans.status_code,302)
 
 if __name__ == '__main__':
     unittest.main()
