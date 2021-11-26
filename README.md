@@ -141,10 +141,7 @@ https://user-images.githubusercontent.com/89509351/140389545-6cbeae48-4e5d-4166-
       http://127.0.0.1:5000/
       
       
-  # Source Code
-  
-  Link to the repository:
-  https://github.com/atharva1996/calorieApp_server
+ 
   
   # Future Scope
   
