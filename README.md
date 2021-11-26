@@ -14,7 +14,7 @@
 
 ![WhatsApp Image 2021-09-28 at 2 48 00 PM](https://user-images.githubusercontent.com/25662536/135546154-cfae1d2e-439a-4edc-b0bb-57f693ef5a83.jpeg)
 
-BurnOut is an easy to use application that keeps track of a user's daily calories gained and burnt. It can help the user to set goals such as weight loss/gain. Users can edit their profile by entering their height, weight, goal and target-weight. Users can enroll into numerous programs involving fitness such as yoga classes and workout sessions. Users can now connect with their friends by sending a friend-request and share their progress. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features before releasing to the market. Also, the document aids the developers in understanding the code and acts as a reference point for continuing the project. 
+BurnOut is an easy to use application that keeps track of a user's daily calories - gained and burnt. It can help the user to set goals such as weight loss or gain. Users can edit their profile by entering their height, weight, goal and targeted-weight. Users can enroll into numerous programs involving fitness such as yoga classes and workout sessions. They can also connect with their friends by sending a friend-request and share their progress. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features before releasing to the market. This repo aids the developers in understanding the code and acts as a reference point for continuing the project. 
 
 # Table of Contents  
 
@@ -158,22 +158,19 @@ https://user-images.githubusercontent.com/89509351/140389545-6cbeae48-4e5d-4166-
    6. Creating an Activities dashboard based on user enrollment
    7. Track user progress for each activity he/she enrolled for.
    
-   # Team Members
+  # Team Members
    
-  <table>
-  <tr>
-    <td align="center"><a href="https://github.com/atharva1996"><img src="https://avatars.githubusercontent.com/u/16671348?v=4" width="100px;" alt=""/><br /><sub>     <b>Atharva Patil</b></sub></a></td>
-    <td align="center"><a href="https://github.com/AtharvaJ10"><img src="https://avatars.githubusercontent.com/u/49825649?v=4" width="100px;" alt=""/><br /><sub>       <b>Atharva Joshi</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/Banpreet123"><img src="https://avatars.githubusercontent.com/u/64312538?s=400&u=f4bb34b674d6dcf2491e8051303835fb79d0f45f&v=4" width="100px;" alt=""/><br /><sub>       <b>Banpreet Singh</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/vaish68"><img src="https://avatars.githubusercontent.com/u/89509351?v=4" width="100px;" alt=""/><br /><sub>        <b>Vaishnavi Patil</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/shivam-pednekar"><img src="https://avatars.githubusercontent.com/u/62328699?v=4" width="100px;" alt=""/><br />       <sub><b>Shivam Pednekar</b></sub></a><br /></td>
-  </tr>
-</table>
-  # Contribution
+ * [Setu Kumar Basak](https://github.com/setu1421)  
+* [Conor Thomason](https://github.com/ConorThomason)  
+* [Keertana Vellanki](https://github.com/KeertanaVellanki)  
+* [Muntasir Hoq](https://github.com/muntasirhoq)  
+* [Matthew Sohacki](https://github.com/msohacki)  
+ 
+# Contribution
   
-  Please refer the CONTRIBUTING.md file for instructions on how to contribute to our repository.
+Please refer the CONTRIBUTING.md file for instructions on how to contribute to our repository.
 
-  # License
+# License
   
   This project is licensed under the MIT License.
   
