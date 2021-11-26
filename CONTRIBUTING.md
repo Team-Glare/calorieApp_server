@@ -1,8 +1,9 @@
 # Contributing to BurnOut 2.0!!
 <h3>Hello!👋</h3>
 <p>Firstly, thank you so much for showing interest in BurnOut 2.0 and contributing to our project.👍</p>
-The following are a set of guidelines for contributing to BurnOut. We are open to suggestions to enhance our project so feel free to propose changes to this document in a pull request.
-
+The idea of having this project as an open source is to enhance it further with some creative and usable functionalities. The README.md file provides a consolidated plan of the scope of the project and what additional functionalities are planned to be deployed in the near future.
+When contributing to the repository, we recommend that you discuss the change you wish to make through an issue, email or contacting one of the owners of the repository.
+The following are a set of guidelines for contributing to BurnOut 2.0:
 
 ### Table of contents
 [Code of Conduct](#code-of-conduct)
