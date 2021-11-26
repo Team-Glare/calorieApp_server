@@ -20,15 +20,17 @@ The following rules are a set of guidelines for contributing to BurnOut 2.0:
 
 
 
-## Code of Conduct
+## CODE OF CONDUCT
 Everyone participating in this project needs to abide by the aPAS - A Personal Agile Scheduler Code of Conduct that can be found under the main repository link as a CODE_OF_CONDUCT.md file. You are expected to follow this code if you decide to participate. Please contact any of the team members mentioned at the bottom of [README.md](README.md) to report any inappropriate behavior.
+
+
 
 ## HOW CAN I CONTRIBUTE?
 
 
   ## Reporting Bugs
 
-  Reporting a bug will benefit the repository's community and maintainers.Before reporting an issue, make sure that it is correct and that you have all of the necessary information. For creating any bug report, please fill out [the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template will give us necessary information to help solve a bug faster. 
+  Reporting a bug will benefit the repository's community and maintainers. Before reporting an issue, make sure that it is correct and that you have all of the necessary information. For creating any bug report, please fill out [the template](https://github.com/atom/.github/blob/master/.github/ISSUE_TEMPLATE/bug_report.md). This template will give us necessary information to help solve a bug faster. 
   
   ## Before submitting a Bug Report
   
@@ -48,7 +50,7 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
     <li><b>If the problem wasn't triggered by a specific action</b>, describe what you were doing before the problem happened and share more information using the guidelines below.</li>
     </ul>
   
-  ## SUGGESTING ENHANCEMENTS
+  ## Suggesting Enhancements
   
   Any suggestions or changes to improve the project would be appreciated. Please follow the following steps:
 
@@ -92,5 +94,5 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
   the command - pip install pylint.
 
 
-### <h2>Need Additional Help?</h2>
+### <h2>NEED ADDITIONAL HELP?</h2>
 <p>If you have any reservations related to the process, feel free to reach us out at [kvellan@ncsu.edu]. Github process can be a bit complex and we don't want to lose your valuable contributions because of that reason. We are extremely glad that you have visited us and will make our project much better.</p>
