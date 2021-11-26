@@ -23,7 +23,7 @@ The following rules are a set of guidelines for contributing to BurnOut 2.0:
 ## Code of Conduct
 Everyone participating in this project needs to abide by the aPAS - A Personal Agile Scheduler Code of Conduct that can be found under the main repository link as a CODE_OF_CONDUCT.md file. You are expected to follow this code if you decide to participate. Please contact any of the team members mentioned at the bottom of [README.md](README.md) to report any inappropriate behavior.
 
-## How Can I Contribute?
+## HOW CAN I CONTRIBUTE?
 
 
   ## Reporting Bugs
@@ -32,7 +32,7 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
 
   When you are creating a bug report, please ensure that you include as many details as possible to understand the issue.
 
-  ## How Do I Submit A Bug Report?
+  ## How Do I Submit a Bug Report?
    <p>Bugs are tracked as GitHub issues. After you've determined which repository your bug is related to, create an issue on that repository.
     Explain the problem and include additional details to help maintainers reproduce the problem:</p>
    <ul>
@@ -44,12 +44,14 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
     <li><b>If the problem wasn't triggered by a specific action</b>, describe what you were doing before the problem happened and share more information using the guidelines below.</li>
     </ul>
   
-  ## Suggesting Enhancements
-  This section guides you through submitting a suggestion for BurnOut, including completely new features and minor improvements to existing functionality. 
+  ## SUGGESTING ENHANCEMENTS
+  
+  Any suggestions or changes to improve the project would be appreciated. Please follow the following steps:
 
-  Enhancement suggestions are tracked as GitHub issues. 
-  After you've determined which repository your enhancement suggestion is related to, create an issue on that repository and provide the information like title, step-by-step description, specific examples.\
-  Giving more detailed information will help us understand the suggestion better. 
+1. Please check the roadmap in order to see the list of tasks to be completed. 
+2. Fill out a pull request.
+3. Please include relevant test cases and regression testing results before requesting a commit.
+4. We will go through the request and merge it after the testing. 
   
   #### Provide details like 
   1) What is the enhancement? 
@@ -58,16 +60,16 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
   ## Pull Requests Methods
   The process described here has several goals: 
 
-  - Maintain BurnOut 2.0 quality 
+  - Maintain the quality of BurnOut 2.0 
   - Fix problems that are important to the users 
-  - Engage the community in working towards the best possible BurnOut 
+  - Engage the community in working towards the best possible outcome
   - Enable a sustainable system for Atom's maintainers to review contributions
 
   Ensure that you follow the steps mentioned below in order to have your contribution reviewed by the maintainers:
   - Add a description of the modification.
   - Insert a clear and descriptive title.
 
-### <h2>Style Guides</h2>
+### <h2>STYLE GUIDES</h2>
   ## Git Commit Messages
 
   - Describe why any particular modification is being made.
@@ -83,8 +85,8 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
   ## Python Style Guides :
 
   All Python code is linted with Pylint. Ensure that before you commit any changes, your code passes all the default pylint checks. Pylint can be installed with
-  `pip install pylint`.
+  the command - pip install pylint.
 
 
 ### <h2>Need Additional Help?</h2>
-<p>Due to any reason, if you feel like you have reservations related to the process, feel free to reach us out at [apatil25@ncsu.edu] Github process can be a bit complex and we don't want to lose your valuable contributions because of that reason. We are extremely glad that you have visited us and will make our project much better.</p>
+<p>If you have any reservations related to the process, feel free to reach us out at [kvellan@ncsu.edu]. Github process can be a bit complex and we don't want to lose your valuable contributions because of that reason. We are extremely glad that you have visited us and will make our project much better.</p>
