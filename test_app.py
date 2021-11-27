@@ -87,5 +87,30 @@ class BasicTestCase(unittest.TestCase):
         ans=self.app.get('/dance')
         self.assertEqual(ans.status_code,302)
 
+    def test_ajaxhistory(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/ajaxhistory')
+        self.assertEqual(ans.status_code,405)
+
+    def test_ajaxapproverequest(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/ajaxapproverequest')
+        self.assertEqual(ans.status_code,405)
+
+    def test_hrx(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/hrx')
+        self.assertEqual(ans.status_code,302)
+
+    def test_ajaxcancelrequest(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/ajaxcancelrequest')
+        self.assertEqual(ans.status_code,405)
+
+    def test_ajaxsendrequest(self):
+        self.app=application.app.test_client()
+        ans=self.app.get('/ajaxsendrequest')
+        self.assertEqual(ans.status_code,405)
+
 if __name__ == '__main__':
     unittest.main()
