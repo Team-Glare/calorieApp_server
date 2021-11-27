@@ -22,6 +22,7 @@ from flask import json
 
 app = Flask(__name__)
 app.secret_key = 'secret'
+
 # app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/test'
 app.config['MONGO_CONNECT'] = True
 with open('application.yml') as f:
@@ -36,6 +37,7 @@ app.config['MAIL_PORT'] = 465
 app.config['MAIL_USE_SSL'] = True
 app.config['MAIL_USERNAME'] = "bogusdummy123@gmail.com"
 app.config['MAIL_PASSWORD'] = "helloworld123!"
+app.config['WTF_CSRF_ENABLED'] = False
 mail = Mail(app)
 
 
