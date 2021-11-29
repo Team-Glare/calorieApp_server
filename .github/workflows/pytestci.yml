@@ -32,7 +32,8 @@ jobs:
         printf 'username: $MONGO_USER\npassword: $MONGO_PASS' > application.yml
         echo 'Created application.yml'
         pwd
-        pytest --cov-report xml:cov.xml --cov=./ ./
+        pip install coverage
+        coverage run -m unittest
     - name: "Upload coverage to Codecov"
       uses: codecov/codecov-action@v1
       with:
