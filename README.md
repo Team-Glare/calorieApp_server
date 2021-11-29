@@ -2,7 +2,7 @@
 [![DOI](https://zenodo.org/badge/429486727.svg)](https://zenodo.org/badge/latestdoi/429486727)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![Build Status](https://app.travis-ci.com/atharva1996/calorieApp_server.svg?branch=main)](https://app.travis-ci.com/atharva1996/calorieApp_server)
-![Code Coverage](https://github.com/atharva1996/calorieApp_server/blob/main/coverage.svg)
+[![codecov](https://codecov.io/gh/Team-Glare/calorieApp_server/branch/main/graph/badge.svg?token=myVYbaJLaw)](https://codecov.io/gh/Team-Glare/calorieApp_server)
 [![Super Linter](https://github.com/Team-Glare/calorieApp_server/actions/workflows/super-linter.yml/badge.svg)](https://github.com/Team-Glare/calorieApp_server/actions/workflows/super-linter.yml)
 ![GitHub issues](https://img.shields.io/github/issues/Team-Glare/calorieApp_server)
 ![last commit](https://img.shields.io/github/last-commit/Team-Glare/calorieApp_server)
