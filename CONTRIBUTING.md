@@ -55,7 +55,7 @@ Everyone participating in this project needs to abide by the aPAS - A Personal A
   Any suggestions or changes to improve the project would be appreciated. Please follow the following steps:
 
 1. Please check the roadmap in order to see the list of tasks to be completed. 
-2. Fill out a pull request.
+2. Fill out a pull request using this [template](https://github.com/Team-Glare/calorieApp_server/blob/main/docs/pull_request_template.md).
 3. Please include relevant test cases and regression testing results before requesting a commit.
 4. We will go through the request and merge it after the testing. 
   
