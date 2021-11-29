@@ -1,6 +1,6 @@
 from typing import Any
 import unittest
-import application
+import .application
 
 from unittest.mock import Mock, patch, MagicMock
 
