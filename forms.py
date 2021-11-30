@@ -1,12 +1,29 @@
 from datetime import date
 from re import sub
-from flask import app
+
+import yaml
+from flask import Flask
+from flask_pymongo import PyMongo
 from flask_wtf import FlaskForm
 from wtforms import StringField, PasswordField, SubmitField, BooleanField
 from wtforms.fields.core import DateField, SelectField
 from wtforms.validators import DataRequired, Length, Email, EqualTo, ValidationError
 from apps import App
 
+def get_mongo():
+    app = Flask(__name__)
+    app.secret_key = 'secret'
+
+    # app.config['MONGO_URI'] = 'mongodb://127.0.0.1:27017/test'
+    app.config['MONGO_CONNECT'] = True
+    with open('application.yml') as f:
+        info = yaml.load(f, Loader=yaml.FullLoader)
+        username = info['username']
+        password = info['password']
+        app.config[
+            'MONGO_URI'] = f'mongodb+srv://{username}:{password}@apptracker.goffn.mongodb.net/calorieApp?retryWrites=true&w=majority'
+    mongo = PyMongo(app)
+    return(mongo)
 
 class RegistrationForm(FlaskForm):
     username = StringField('Username',
@@ -37,8 +54,7 @@ class LoginForm(FlaskForm):
 
 
 class CalorieForm(FlaskForm):
-    app = App()
-    mongo = app.mongo
+    mongo = get_mongo()
 
     cursor = mongo.db.food.find()
     get_docs = []
@@ -79,15 +95,13 @@ class UserProfileForm(FlaskForm):
 
 
 class HistoryForm(FlaskForm):
-    app = App()
-    mongo = app.mongo
+    mongo = get_mongo()
     date = DateField()
     submit = SubmitField('Fetch')
 
 
 class EnrollForm(FlaskForm):
-    app = App()
-    mongo = app.mongo
+    mongo = get_mongo()
     submit = SubmitField('Enroll')
 
 class ResetPasswordForm(FlaskForm):
