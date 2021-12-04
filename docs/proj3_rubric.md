@@ -20,7 +20,7 @@
 |3|Use of code coverage  | in GH|
 |3|other automated analysis tools  | Super Linter in Github actions|
 |3|test cases:.a large proportion of the issues related to handling failing cases. | in GH|
-|3|test cases are routinely executed | github actions|
+|3|test cases are routinely executed | Github actions|
 |3|Documentation describing how this version improves on the older version|proj3_Improvements.md| 
 ||This version is a little(1), some(2), much(3) improved on the last version.|Tutor's assessment.| 
 || Total|
