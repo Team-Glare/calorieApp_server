@@ -16,6 +16,14 @@
 
 BurnOut is an easy to use application that keeps track of a user's daily calories - gained and burnt. It can help the user to set goals such as weight loss or gain. Users can edit their profile by entering their height, weight, goal and targeted-weight. Users can enroll into numerous programs involving fitness such as yoga classes and workout sessions. They can also connect with their friends by sending a friend-request and share their progress. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features before releasing to the market. This repo aids the developers in understanding the code and acts as a reference point for continuing the project. 
 
+## Improvements:
+
+* Written unit tests with proper mocking and increased the code coverage from 56% to 98%
+* Deployed local mongo server to MongoAtlas
+* Added Linter and Code formatter in the CI pipeline
+* Added Software Documentation
+* Improved Contributing.md
+
 # Table of Contents  
 
 - [Why use BurnOut?](#why-use-burnout)
