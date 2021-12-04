@@ -1,4 +1,5 @@
 https://ncsu.zoom.us/rec/share/CNF2zaJt9LmGBn8Th5oQkC5gRwh7CtANJ4T3ss__BUTH0_77HYDxxvDYIEJ-xry0.7LsEsX3jtU2T1Q_9?startTime=1638606669000
+
 [![GitHub license](https://img.shields.io/github/license/Team-Glare/calorieApp_server)](https://github.com/Team-Glare/calorieApp_server/blob/main/LICENSE)
 [![DOI](https://zenodo.org/badge/429486727.svg)](https://zenodo.org/badge/latestdoi/429486727)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
