@@ -2,7 +2,7 @@
 |-|-----|---------|
 |3| short release cycles|in GH|
 |3| workload is spread over the whole team (so one team member is often Xtimes more productive than the others...|in GH|
-|3|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | README.md, Improvements.md and Software Documentation |
+|3|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | README.md, proj3_Improvements.md and Software Documentation |
 |3|the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up  |in GH |
 |3|Docs: doco generated , format not ugly  | in GH|
 |3|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) |in GH actions |
@@ -21,6 +21,6 @@
 |3|other automated analysis tools  | Super Linter in Github actions|
 |3|test cases:.a large proportion of the issues related to handling failing cases. | in GH|
 |3|test cases are routinely executed | github actions|
-|3|Documentation describing how this version improves on the older version|Improvements.md| 
+|3|Documentation describing how this version improves on the older version|proj3_Improvements.md| 
 ||This version is a little(1), some(2), much(3) improved on the last version.|Tutor's assessment.| 
 || Total|
